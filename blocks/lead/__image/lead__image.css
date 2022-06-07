@@ -5,8 +5,14 @@
     margin-top: 64px;
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 1140px) {
     .lead__image {
-        max-width: 100vw;
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .lead__image{
+        margin-top: 40px;
     }
 }
