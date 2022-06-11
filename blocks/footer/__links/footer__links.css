@@ -1,0 +1,19 @@
+.footer__links {
+    padding: 0;
+    margin: 0;
+    width: 465px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 568px) {
+    .footer__links{
+        min-height: 248px;
+        width: 158px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}
